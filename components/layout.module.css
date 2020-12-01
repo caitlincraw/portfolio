@@ -1,6 +1,6 @@
 .container {
-  /* min-height: 100vh; */
-  height: 100vh;
+  min-height: 100vh; 
+  /* height: 100vh; */
   padding: 0 0.5rem;
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@
 }
 
 .initials {
-  margin-left: 3rem;
+  margin-left: 2rem;
   font-weight: bolder;
 }
 
@@ -49,16 +49,16 @@
 }
 
 .copyright {
-  margin-left: 3rem;
+  margin-left: 2rem;
 }
 
 .items {
   display: flex;
-  margin-right: 3rem;
+  margin-right: 2rem;
 }
 
 .items a {
-  margin: 0.75rem;
+  margin: 0.5rem;
   font-weight: bolder;
 }
 

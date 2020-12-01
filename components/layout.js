@@ -15,7 +15,7 @@ export default function Layout({children}) {
             </div>
             <div className={styles.items}>
                 <Link href="./aboutme"><a>About Me</a></Link>
-                <Link href="./portfolio"><a>Portfolio</a></Link>
+                <Link href="./portfolio"><a>Projects</a></Link>
             </div>
         </nav>
 

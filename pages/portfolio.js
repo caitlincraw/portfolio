@@ -10,36 +10,31 @@ export default function Portfolio() {
         <title>Caitlin Crawford | Portfolio</title>
       </Head>
 
-    <main className={utilStyles.main}>
-      <h1 className={utilStyles.title}>
-        Portfolio
-      </h1>
+        <main className={utilStyles.main}>
+            <h1 className={utilStyles.title}>
+                Projects
+            </h1>
 
-      <p className={utilStyles.description}>
-      </p>
-      <div className={styles.project}>
-		<ul className={styles.list}>
-			<li className={styles.card}>
-				<h2 className={styles.title}><a href="http://pandemic-patios.com" target="_blank">Pandemic Patios</a></h2>
-				<h3 className={styles.organization}>
-                    <a href="https://github.com/RudyCruisin/PandemicPatios" target="_blank">See the source code here!</a>
-				</h3>
-				<h3 className={styles.date}>Nov 2020</h3>
-                <p className={styles.bio}>A COVID-era app that allows users to search for and review safe outdoor dining spaces in their area. Once logged in, users can add patios and review existing patios. While not logged in, users can still see reviews of patios by city. </p>
-                <h3 className={styles.technologies}>Built with TBD</h3>
-			</li>
-            <li className={styles.card}>
-				<h2 className={styles.title}><a href="https://petpalsinc.surge.sh/" target="_blank">PetPals</a></h2>
-				<h3 className={styles.organization}>
-                    <a href="https://github.com/AliKasper/PetPals" target="_blank">See the source code here!</a>
-				</h3>
-				<h3 className={styles.date}>Sept 2020</h3>
-                <p className={styles.bio}>PetPals is an app that provides a "Tinder-like" platform for pet adoptions. Users can swipe left or right on available pets and then link to the pet’s PetFinder adoption listing. </p>
-                <h3 className={styles.technologies}>Built with TBD</h3>
-			</li>
-        </ul>
-        </div>
-    </main>
+            <div className={styles.portfolio}>
+
+                <div className={styles.details}>
+                    <h2 className={styles.title}><a href="http://pandemic-patios.com" target="_blank">Pandemic Patios</a></h2>
+                    <a href="http://pandemic-patios.com" target="_blank"><img className={styles.screenshot} src="./images/pandemicpatios1.png"></img></a>
+                    <p className={styles.bio}>Pandemic Patios is a COVID-era app that allows users to search for and review safe outdoor dining spaces in their area. Once logged in, users can add patios and review existing patios. While not logged in, users can still see reviews of patios by city. </p>
+                    <a className={styles.sourceCode} href="https://github.com/RudyCruisin/PandemicPatios" target="_blank">See the source code here!</a>
+                    <p className={styles.technologies}>Built with JavaScript, Node.js, Passport.js, Express.js, Sequelize, PostgreSQL, HTML, CSS, Google Maps JavaScript API, Google Places API, and the Covid Tracking Project Data API.  </p>
+                </div>
+
+
+                <div className={styles.details}>
+                    <h2 className={styles.title}><a href="https://petpalsinc.surge.sh/" target="_blank">PetPals</a></h2>
+                    <a href="https://petpalsinc.surge.sh/" target="_blank"><img className={styles.screenshot} src="./images/petpals1.png"></img></a>
+                    <p className={styles.bio}>PetPals is an app that provides a "Tinder-like" platform for pet adoptions. Users can swipe left or right on available pets and then link to the pet’s PetFinder adoption listing. </p>
+                    <a className={styles.sourceCode} href="https://github.com/AliKasper/PetPals" target="_blank">See the source code here!</a>
+                    <p className={styles.technologies}>Built with JavaScript, HTML, CSS, Bootstrap, jQuery, jQueryUI, and PetFinder API. </p>
+                </div>
+            </div>
+        </main>
 
     </Layout>
   )
