@@ -13,10 +13,11 @@ export default function Home() {
       <main className={utilStyles.main}>
           <h1 className={utilStyles.title}>
             Hello World, I'm Caitlin Crawford
+            <span className={styles.wave}>👋</span>
           </h1>
 
           <p className={utilStyles.description}>
-            <div className={styles.wave}>👋</div>
+            <img className={styles.headshot} src="./images/headshot.jpg"></img>
           </p>
       </main>
 
