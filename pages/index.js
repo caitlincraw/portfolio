@@ -11,13 +11,13 @@ export default function Home() {
       </Head>
 
       <main className={utilStyles.main}>
-        <h1 className={utilStyles.title}>
-          Hello World, I'm Caitlin Crawford
-        </h1>
+          <h1 className={utilStyles.title}>
+            Hello World, I'm Caitlin Crawford
+          </h1>
 
-        <p className={utilStyles.description}>
-        <div className={styles.wave}>👋</div>
-        </p>
+          <p className={utilStyles.description}>
+            <div className={styles.wave}>👋</div>
+          </p>
       </main>
 
     </Layout>
