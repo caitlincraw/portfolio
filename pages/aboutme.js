@@ -28,7 +28,7 @@ export default function AboutMe() {
             <p className={styles.aboutMe}>
                 I'm an aspiring software developer, a life-long city dweller/advocate, a math enthusiast, a crazy cat lady, and an avid outdoors[wo]man. 
                 I'm new to the software development world, but I'm ready to enter the field and start finding solutions to problems, both big and small.
-                I'm currently located in Chattanooga, Tennessee, alongside my goofy husband, Grant, and our three purrfect feline children, Toots, Milo, and Driz.
+                I'm currently located in Chattanooga, Tennessee, alongside my goofy husband, Grant, and our four purrfect feline children, Toots, Milo, Driz, and Goose.
             </p>
 
             <h1 className={utilStyles.title}>
