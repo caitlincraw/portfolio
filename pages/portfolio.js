@@ -18,8 +18,8 @@ export default function Portfolio() {
             <div className={styles.portfolio}>
 
                 <div className={styles.details}>
-                    <h2 className={styles.title}><a href="http://isbeernear.com" target="_blank">Beer Is Near</a></h2>
-                    <a href="http://isbeernear.com" target="_blank"><img className={styles.screenshot} src="./images/beerisnear1.png"></img></a>
+                    <h2 className={styles.title}><a href="https://beer-is-near.herokuapp.com/" target="_blank">Beer Is Near</a></h2>
+                    <a href="https://beer-is-near.herokuapp.com/" target="_blank"><img className={styles.screenshot} src="./images/beerisnear1.png"></img></a>
                     <p className={styles.bio}>Beer is Near is a site where users can search for non alcoholic craft beers and add them to their favorite, need to try, or nasty lists. The site is based on a quote from my dad and was built as a tool for him to find new and tasty beers. </p>
                     <a className={styles.sourceCode} href="https://github.com/caitlincraw/is-beer-near" target="_blank">See the source code here!</a>
                     <p className={styles.technologies}>Built with JavaScript, React, Redux, Node.js, Express.js, Sequelize.js, PostgreSQL, and CSS.</p>
