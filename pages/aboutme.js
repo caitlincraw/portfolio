@@ -74,7 +74,7 @@ export default function AboutMe() {
                 </div>
             </div>
 
-            <a className={styles.resume} href="./images/Crawford-Resume-Nov2020.pdf" target="_blank">
+            <a className={styles.resume} href="./images/Resume-Crawford.pdf" target="_blank">
             Check out my full resume! 
             </a>
 
