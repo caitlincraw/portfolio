@@ -18,6 +18,14 @@ export default function Portfolio() {
             <div className={styles.portfolio}>
 
                 <div className={styles.details}>
+                    <h2 className={styles.title}><a href="https://dundermifflininfinity.surge.sh/" target="_blank">Dunder Mifflin Infinity</a></h2>
+                    <a href="https://dundermifflininfinity.surge.sh/" target="_blank"><img className={styles.screenshot} src="./images/dundermifflin1.png"></img></a>
+                    <p className={styles.bio}>Dunder Mifflin Infinity is a replica version of the virtual paper store and social media site made famous on season 4 of the TV Series, The Office. Once logged in, users can talk to fellow paper lovers online in the We Love Paper Chatroom or browse the collection of paper products in the store. Nostalgic UI design based off Windows 98, AOL Instant Messenger, and MySpace. </p>
+                    <a className={styles.sourceCode} href="https://github.com/caitlincraw/dunder-mifflin" target="_blank">See the source code here!</a>
+                    <p className={styles.technologies}>Built with JavaScript, React, Redux, Node.js, Express.js, Sequelize.js, PostgreSQL, Passport.js, Socket.io, and CSS.</p>
+                </div>
+
+                <div className={styles.details}>
                     <h2 className={styles.title}><a href="https://beer-is-near.herokuapp.com/" target="_blank">Beer Is Near</a></h2>
                     <a href="https://beer-is-near.herokuapp.com/" target="_blank"><img className={styles.screenshot} src="./images/beerisnear1.png"></img></a>
                     <p className={styles.bio}>Beer is Near is a site where users can search for non alcoholic craft beers and add them to their favorite, need to try, or nasty lists. The site is based on a quote from my dad and was built as a tool for him to find new and tasty beers. </p>
